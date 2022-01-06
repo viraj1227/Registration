@@ -7,8 +7,7 @@
     android:orientation="vertical"
     android:padding="20dp"
     android:background="#E75B63"
-    android:scrollbars="none"
-    tools:context=".RecipientRegistrationActivity">
+    tools:context=".DonorRegistrationActivity">
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -202,6 +201,7 @@
                         android:layout_marginLeft="10dp"
                         android:text="Others"/>
                 </RadioGroup>
+
                 <Spinner
                     android:id="@+id/blood_group"
                     android:layout_gravity="center"
@@ -219,6 +219,7 @@
                     android:entries="@array/bloodgroups"
                     android:layout_height="wrap_content"
                     />
+
                 <com.google.android.material.textfield.TextInputLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -281,3 +282,4 @@
         </LinearLayout>
     </androidx.cardview.widget.CardView>
 </ScrollView>
+
